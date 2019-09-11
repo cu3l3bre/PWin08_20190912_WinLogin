@@ -126,6 +126,7 @@ namespace WinLogin
                         labelStatus.Text = "Angemeldet als " + textBoxUsername.Text;
                         textBoxUsername.Text = String.Empty;
                         textBoxPasswort.Text = String.Empty;
+                        password = String.Empty;
 
                     }
                     else
@@ -157,6 +158,7 @@ namespace WinLogin
             labelStatus.Text = "Anmelden oder Registrieren";
             textBoxUsername.Text = String.Empty;
             textBoxPasswort.Text = String.Empty;
+            password = String.Empty;
         }
 
 
@@ -166,9 +168,11 @@ namespace WinLogin
             {
                 if (!userPwList.ContainsKey(textBoxUsername.Text))
                 {
-                    userPwList.Add(textBoxUsername.Text, textBoxPasswort.Text);
+                    // userPwList.Add(textBoxUsername.Text, textBoxPasswort.Text);
+                    userPwList.Add(textBoxUsername.Text, password);
                     textBoxUsername.Text = String.Empty;
                     textBoxPasswort.Text = String.Empty;
+                    password = String.Empty;
                     return true;
                 }
                 else
