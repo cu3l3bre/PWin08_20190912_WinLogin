@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WinLogin.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PathUserFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\Alfa-Dozent\Documents\Visual Studio 2013\Projects\C#\C#-Windowsprojekte\PWin09_20140328_WinLoginUebung\WinLogin\Daten</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
